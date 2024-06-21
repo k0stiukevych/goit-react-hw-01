@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 32px auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: rgb(255, 255, 255) -0.0625rem -0.0625rem 0.0625rem, rgb(186, 190, 204) 0.0625rem 0.0625rem 0.0625rem;
+    background-color: gray;
+}
+
+.ulList {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.liItem {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    padding: 8px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

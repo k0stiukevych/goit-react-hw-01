@@ -1,0 +1,24 @@
+.friendInfoCont{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.friendName {
+    font-size: 38px;
+    color: black;
+}
+
+.statText {
+    font-size: 22px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
