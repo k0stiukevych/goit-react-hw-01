@@ -44,6 +44,27 @@ ul {
   padding: 0;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Щоб прибрати подвійні межі */
+  border: 2px solid black;
+  /* Колір меж таблиці */
+}
+
+th,
+td {
+  border: 1px solid black;
+  /* Колір меж комірок */
+  padding: 8px;
+  text-align: center;
+}
+
+thead {
+  background-color: hsl(0, 0%, 17%);
+  text-align: center;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
