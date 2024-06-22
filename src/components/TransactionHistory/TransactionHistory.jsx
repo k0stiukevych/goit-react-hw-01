@@ -4,7 +4,6 @@ import TransactionHistoryItem from "../TransactionHistoryItem/TransactionHistory
 import clsx from "clsx";
 
 export default function TransactionHistory({ items }) {
-
   return (
     <div className={css.container}>
       <table className={css.tableStyle}>
@@ -19,7 +18,12 @@ export default function TransactionHistory({ items }) {
         <tbody>
           {items.map((item, index) => {
             return (
-              <tr key={item.id} className={clsx(index % 2 === 0 ? css.transparent : css.notTransp)}>
+              <tr
+                key={item.id}
+                className={clsx(
+                  index % 2 === 0 ? css.transparent : css.notTransp
+                )}
+              >
                 <TransactionHistoryItem transaction={item} />
               </tr>
             );
